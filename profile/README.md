@@ -1,11 +1,15 @@
 ## Hi there 👋
 
-# 자취생들을 위한 식재료 교환 플랫폼
+# 자취생들을 위한 식재료 교환 플랫폼 생성
 
 <div align="center">
 <h3>24-1 YBIGTA 컨퍼런스</h3>
 
-<em> 자취생들을 위한 식재료 교환 플랫폼 </em>
+<em> DB: mySQL
+프론트: Reactive Native
+OCR: 네이버 CLOVA
+백엔드: Spring Boot, Gradle, Java 17
+</em>
 
 </div>
 
