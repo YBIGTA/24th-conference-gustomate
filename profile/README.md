@@ -5,7 +5,8 @@
 <div align="center">
 <h3>24-1 YBIGTA 컨퍼런스</h3>
 
-<em> 자취생들을 위한 식재료 교환 플랫폼입니다..!</em>
+<em> 자취생들을 위한 식재료 교환 플랫폼입니다..!
+</em>
 
 </div>
 
@@ -30,14 +31,21 @@
         - (Description)
         
 ## 모델링
+
 **모델링 기능 설명**:
-   - 회원가입, 사용자 선호도, 냉장고 식재료, 식재료 교환 마켓, 레시피 추천 기능 제공
-   - [모델링 깃허브](https://github.com/GustoMate/backend_fastAPI)
+   -
+   - [모델링 깃허브](https://github.com/GustoMate/Modeling)
 
 ### 🔨 Tools 🔨
+<div align="center">
+<img src="https://img.shields.io/badge/Python-3.12%2B-blue" alt="Python">
+<img src="https://img.shields.io/badge/OpenAI-API-green" alt="OpenAI">
+</div>
+
 
   
 ## 백엔드
+
 **백엔드 기능 설명**:
    - 회원가입, 사용자 선호도, 냉장고 식재료, 식재료 교환 마켓, 레시피 추천 기능 제공
    - [백엔드 깃허브](https://github.com/GustoMate/backend_fastAPI)
@@ -109,12 +117,18 @@ GustomateApp
 
 ```
 
+
+
 ## 프론트엔드
+
 **프론트엔드 기능 설명**:
-   - 회원가입, 사용자 선호도, 냉장고 식재료, 식재료 교환 마켓, 레시피 추천 기능 제공
-   - [백엔드 깃허브](https://github.com/GustoMate/backend_fastAPI)
+   - 
+   - [프론트엔드 깃허브](https://github.com/GustoMate/frontend)
 
 ### 🔨 Tools 🔨
+<div align="center">
+  <img src="https://img.shields.io/badge/React_Native-orange" alt="React Native">
+</div>
 
 
 ## 결과 및 주요 기능
