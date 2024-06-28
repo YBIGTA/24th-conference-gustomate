@@ -8,6 +8,22 @@
 <em> 자취생들을 위한 식재료 교환 플랫폼입니다..!
 </em>
 
+<div align="center">
+    <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI">
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="chatGPT">
+    <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
+</div>
+<div align="center">
+    <img src="https://img.shields.io/badge/Python-3.12%2B-blue" alt="Python">
+    <img src="https://img.shields.io/badge/OpenAI-API-green" alt="OpenAI">
+</div>
+<div>
+    <img src="https://img.shields.io/badge/React_Native-orange" alt="React Native">
+</div>
+
+
 </div>
 
 ## 목차
@@ -51,12 +67,6 @@
      
    - [모델링 깃허브](https://github.com/GustoMate/Modeling)
 
-### 🔨 Tools 🔨
-<div align="center">
-<img src="https://img.shields.io/badge/Python-3.12%2B-blue" alt="Python">
-<img src="https://img.shields.io/badge/OpenAI-API-green" alt="OpenAI">
-</div>
-
 
   
 ## 백엔드
@@ -65,13 +75,6 @@
    - 회원가입, 사용자 선호도, 냉장고 식재료, 식재료 교환 마켓, 레시피 추천 기능 제공
    - [백엔드 깃허브](https://github.com/GustoMate/backend_fastAPI)
 
-### 🔨 Tools 🔨
-
-<div align="center">
-    <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI">
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-</div>
 
 ### 설치 방법
 
@@ -140,10 +143,6 @@ GustomateApp
    - 
    - [프론트엔드 깃허브](https://github.com/GustoMate/frontend)
 
-### 🔨 Tools 🔨
-<div align="center">
-  <img src="https://img.shields.io/badge/React_Native-orange" alt="React Native">
-</div>
 
 
 ## 결과 및 주요 기능
