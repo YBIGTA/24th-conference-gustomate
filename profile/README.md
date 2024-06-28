@@ -8,7 +8,7 @@
 <em> DB: mySQL
 프론트: Reactive Native
 OCR: 네이버 CLOVA
-백엔드: Spring Boot, Gradle, Java 17
+백엔드: fastAPI
 </em>
 
 </div>
@@ -50,6 +50,81 @@ OCR: 네이버 CLOVA
         - (Description)
     - (Service Architecture)
         - (Description)
+  
+## backend_fastAPI
+
+**백엔드 기능 설명**:
+   - 회원가입, 사용자 선호도, 냉장고 식재료, 식재료 교환 마켓, 레시피 추천 기능 제공
+   - [백엔드 깃허브](https://github.com/GustoMate/backend_fastAPI)
+
+### 🔨 Tools 🔨
+
+<div align="center">
+    <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI">
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+</div>
+
+### 설치 방법
+
+- `pip install "fastapi[all]"`
+- `pip install python-dotenv`
+- `pip install -r requirements.txt`
+
+- 준비
+  root 파일에 .env 생성 (openai key 유출 조심)
+
+- 실행
+  터미널에서 `uvicorn main:app --reload`실행
+  http://127.0.0.1:8000/docs 에서 API 문서 확인 가능
+
+파일구조:
+
+```
+GustomateApp
+├── account
+│   ├── CRUD.py
+│   ├── router.py
+│   └── schema.py
+├── database
+│   ├── database.py
+│   └── models.py
+├── dependency
+│   └── dependencies.py
+├── fridge
+│   ├── CRUD.py
+│   ├── router.py
+│   └── schema.py
+├── friend
+│   ├── CRUD.py
+│   ├── router.py
+│   └── schema.py
+├── ingredients
+│   ├── CRUD.py
+│   ├── router.py
+│   └── schema.py
+├── market
+│   ├── CRUD.py
+│   ├── router.py
+│   └── schema.py
+├── preference
+│   ├── CRUD.py
+│   ├── router.py
+│   └── schema.py
+├── recipe
+│   ├── CRUD.py
+│   ├── router.py
+│   └── schema.py
+├── README.md
+├── config.py
+├── create_Gustomate_Database.sql
+├── main.py
+└── requirements.txt
+
+
+```
+
+
 
 ## 결과 및 주요 기능
 
