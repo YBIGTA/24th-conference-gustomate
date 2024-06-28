@@ -5,11 +5,7 @@
 <div align="center">
 <h3>24-1 YBIGTA 컨퍼런스</h3>
 
-<em> DB: mySQL
-프론트: Reactive Native
-OCR: 네이버 CLOVA
-백엔드: fastAPI
-</em>
+<em> 자취생들을 위한 식재료 교환 플랫폼입니다..!</em>
 
 </div>
 
