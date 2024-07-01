@@ -153,13 +153,30 @@ GustomateApp
    
 **예시 페이지**:
    - 사용자 선호도 조사
+
+     
      ![Preference](https://github.com/GustoMate/frontend/assets/138839075/ce91e8aa-e4a1-4a4a-82ae-6d5fd5eba1e4)
      ![Preference2](https://github.com/GustoMate/frontend/assets/138839075/71c91d75-1dd4-4f96-a617-1e4f6e5f012f)
-   - 사용자 냉장고
+
+     
+   - 사용자 냉장고 & OCR 재료추가
+
+     
      ![fridge](https://github.com/GustoMate/frontend/assets/138839075/1be36bf1-5201-4dff-a983-6ade7679ec00)
+     ![OCR_Upload](https://github.com/GustoMate/frontend/assets/138839075/d7e3654d-0333-4531-8ce7-6d7938e3da3c)
+     ![OCR_Result](https://github.com/GustoMate/frontend/assets/138839075/11d9a87d-bcf9-4551-b875-ae28487307bf)
+
+     
    - 레시피 추천
+
+     
      ![RecipeResult](https://github.com/GustoMate/frontend/assets/138839075/0333b999-0ef4-467c-a938-4908b0b85449)
+     ![RecipeDetail](https://github.com/GustoMate/frontend/assets/138839075/db4b4971-ecfc-48a6-bc92-f77fe85cb22a)
+
+     
    - 마켓
+
+     
      ![Market](https://github.com/GustoMate/frontend/assets/138839075/c808198c-3127-4bb9-ba3a-53995835adab)
 
 ### 설치 방법
