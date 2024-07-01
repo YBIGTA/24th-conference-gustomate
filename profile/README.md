@@ -139,6 +139,8 @@ GustomateApp
 
 ## 프론트엔드
 
+**[프론트엔드 깃허브]** (https://github.com/GustoMate/frontend)
+  
 **프론트엔드 기능 설명**:
    - Login & Preference : 회원가입과 동시에 사용자의 레시피 선호도 정보 받기, 로그인으로 사용자 정보 전달 가능.
    - Fridge Page : 사용자의 냉장고에 어떤 식재료가 있는지 유통기한과 함께 확인 가능, 식재료를 직접 추가 / OCR로 추가 하는 페이지 추가.
@@ -148,11 +150,25 @@ GustomateApp
    - Market Page : 판매 중인 상품 목록 확인 & 원하는 품목 검색 기능 존재.
    - Product_Detail Page : 각 판매 상품의 상세 내용을 확인 가능.
    - 기타 추가 기능 : 유통기한 임박도에 따라 다른 색깔로 확인 가능
-   - [프론트엔드 깃허브](https://github.com/GustoMate/frontend)
-
+   
 **예시 페이지**:
+   - 사용자 선호도 조사
+     ![Preference](https://github.com/GustoMate/frontend/assets/138839075/ce91e8aa-e4a1-4a4a-82ae-6d5fd5eba1e4)
+     ![Preference2](https://github.com/GustoMate/frontend/assets/138839075/71c91d75-1dd4-4f96-a617-1e4f6e5f012f)
+   - 사용자 냉장고
+     ![fridge](https://github.com/GustoMate/frontend/assets/138839075/1be36bf1-5201-4dff-a983-6ade7679ec00)
+   - 레시피 추천
+     ![RecipeResult](https://github.com/GustoMate/frontend/assets/138839075/0333b999-0ef4-467c-a938-4908b0b85449)
+   - 마켓
+     ![Market](https://github.com/GustoMate/frontend/assets/138839075/c808198c-3127-4bb9-ba3a-53995835adab)
 
+### 설치 방법
 
+- `npm install`
+- `npm start`
+- `a` for android, `i` for ios. 
+
+  
 ## 결과 및 주요 기능
 
 *(평가 지표, 구현한 핵심 기능 등)*
