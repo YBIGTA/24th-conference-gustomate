@@ -139,51 +139,56 @@ GustomateApp
 
 ## 프론트엔드
 
-**[프론트엔드 깃허브]** (https://github.com/GustoMate/frontend)
-  
-**프론트엔드 기능 설명**:
-   - Login & Preference : 회원가입과 동시에 사용자의 레시피 선호도 정보 받기, 로그인으로 사용자 정보 전달 가능.
-   - Fridge Page : 사용자의 냉장고에 어떤 식재료가 있는지 유통기한과 함께 확인 가능, 식재료를 직접 추가 / OCR로 추가 하는 페이지 추가.
-   - OCR Page : 사진 업로드에 따라 OCR & GPT API를 돌려 식재료 종류 & 품목 확인 가능. 유통기한 입력 가능.
-   - Recipe Page : 사용자의 선호도 input을 버튼으로 받아 모델로 전달, 레시피 추천 목록 띄우는 페이지.
-   - Recipe_Detail Page : 각 레시피를 선택할 경우 레시피의 상세 정보 확인 가능 (예: 난이도, 조리시간, 알레르기, 맵기, 테마, 국가분류, 재료목록, 레시피 과정 등)
-   - Market Page : 판매 중인 상품 목록 확인 & 원하는 품목 검색 기능 존재.
-   - Product_Detail Page : 각 판매 상품의 상세 내용을 확인 가능.
-   - 기타 추가 기능 : 유통기한 임박도에 따라 다른 색깔로 확인 가능
-   
-**예시 페이지**:
-   - 사용자 선호도 조사
+**[프론트엔드 깃허브](https://github.com/GustoMate/frontend)**
 
-     
-     ![Preference](https://github.com/GustoMate/frontend/assets/138839075/ce91e8aa-e4a1-4a4a-82ae-6d5fd5eba1e4)
-     ![Preference2](https://github.com/GustoMate/frontend/assets/138839075/71c91d75-1dd4-4f96-a617-1e4f6e5f012f)
+### 프론트엔드 기능 설명
+- **Login & Preference**: 회원가입과 동시에 사용자의 레시피 선호도 정보 받기, 로그인으로 사용자 정보 전달 가능.
+- **Fridge Page**: 사용자의 냉장고에 어떤 식재료가 있는지 유통기한과 함께 확인 가능, 식재료를 직접 추가 / OCR로 추가하는 페이지 추가.
+- **OCR Page**: 사진 업로드에 따라 OCR & GPT API를 돌려 식재료 종류 & 품목 확인 가능. 유통기한 입력 가능.
+- **Recipe Page**: 사용자의 선호도 input을 버튼으로 받아 모델로 전달, 레시피 추천 목록 띄우는 페이지.
+- **Recipe_Detail Page**: 각 레시피를 선택할 경우 레시피의 상세 정보 확인 가능 (예: 난이도, 조리시간, 알레르기, 맵기, 테마, 국가분류, 재료목록, 레시피 과정 등)
+- **Market Page**: 판매 중인 상품 목록 확인 & 원하는 품목 검색 기능 존재.
+- **Product_Detail Page**: 각 판매 상품의 상세 내용을 확인 가능.
+- **기타 추가 기능**: 유통기한 임박도에 따라 다른 색깔로 확인 가능.
 
-     
-   - 사용자 냉장고 & OCR 재료추가
+### 예시 페이지
+#### 사용자 선호도 조사
+<table>
+  <tr>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/ce91e8aa-e4a1-4a4a-82ae-6d5fd5eba1e4" height="300"></td>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/71c91d75-1dd4-4f96-a617-1e4f6e5f012f" height="300"></td>
+  </tr>
+</table>
 
-     
-     ![fridge](https://github.com/GustoMate/frontend/assets/138839075/1be36bf1-5201-4dff-a983-6ade7679ec00)
-     ![OCR_Upload](https://github.com/GustoMate/frontend/assets/138839075/d7e3654d-0333-4531-8ce7-6d7938e3da3c)
-     ![OCR_Result](https://github.com/GustoMate/frontend/assets/138839075/11d9a87d-bcf9-4551-b875-ae28487307bf)
+#### 사용자 냉장고 & OCR 재료추가
+<table>
+  <tr>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/1be36bf1-5201-4dff-a983-6ade7679ec00" height="300"></td>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/d7e3654d-0333-4531-8ce7-6d7938e3da3c" height="300"></td>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/11d9a87d-bcf9-4551-b875-ae28487307bf" height="300"></td>
+  </tr>
+</table>
 
-     
-   - 레시피 추천
+#### 레시피 추천
+<table>
+  <tr>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/0333b999-0ef4-467c-a938-4908b0b85449" height="300"></td>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/db4b4971-ecfc-48a6-bc92-f77fe85cb22a" height="300"></td>
+  </tr>
+</table>
 
-     
-     ![RecipeResult](https://github.com/GustoMate/frontend/assets/138839075/0333b999-0ef4-467c-a938-4908b0b85449)
-     ![RecipeDetail](https://github.com/GustoMate/frontend/assets/138839075/db4b4971-ecfc-48a6-bc92-f77fe85cb22a)
-
-     
-   - 마켓
-
-     
-     ![Market](https://github.com/GustoMate/frontend/assets/138839075/c808198c-3127-4bb9-ba3a-53995835adab)
+#### 마켓
+<table>
+  <tr>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/c808198c-3127-4bb9-ba3a-53995835adab" height="300"></td>
+    <td><img src="https://github.com/GustoMate/frontend/assets/138839075/a6c3c0eb-e28f-4179-82b7-3a435f6c4198" height="300"></td>
+  </tr>
+</table>
 
 ### 설치 방법
-
 - `npm install`
 - `npm start`
-- `a` for android, `i` for ios. 
+- `a` for android, `i` for ios
 
   
 ## 결과 및 주요 기능
